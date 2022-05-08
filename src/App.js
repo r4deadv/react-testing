@@ -1,9 +1,11 @@
 import './App.css';
+import AppHeader from './components/AppHeader/AppHeader';
 import NameInput from './components/NameInput/NameInput';
 function App() {
   return (
     <div className="App">
-     <NameInput />
+      <AppHeader />
+      <NameInput />
     </div>
   );
 }
