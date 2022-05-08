@@ -1,5 +1,5 @@
 import './App.css';
-import NameInput from './components/NameInput';
+import NameInput from './components/NameInput/NameInput';
 function App() {
   return (
     <div className="App">
