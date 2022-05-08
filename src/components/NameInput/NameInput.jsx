@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import InputDisplayHeader from '../InputDisplayHeader/InputDisplayHeader'
 
 const NameInput = () => {
     const [firstNameVal, setFirstNameVal] = useState('')
@@ -9,10 +10,11 @@ const NameInput = () => {
 
     return (
         <div className='form-input'>
-            <h1>Hello, {firstNameVal ? `${firstNameVal}` : 'what is your name?'}</h1>
+            <InputDisplayHeader firstNameVal={firstNameVal} />
             <label>First Name:</label>
             <input
                 id='first-name'
+                placeholder='Type first name here'
                 type='text'
                 value={firstNameVal}
                 onChange={updateNameValue}
