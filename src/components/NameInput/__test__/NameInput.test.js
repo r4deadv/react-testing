@@ -21,7 +21,7 @@ it('Renders label on screen', () => {
 // //FIND BY
 // it('Renders label on screen', async () => {
 //   render(<NameInput />)
-//   const labelElement = await screen.getByText(/first name:/i)
+//   const labelElement = await screen.findByText(/first name:/i)
 //   expect(labelElement).toBeVisible()
 // })
 
