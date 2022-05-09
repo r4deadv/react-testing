@@ -15,5 +15,3 @@
 1. Uncomment the `CountContainer` component in `App.js`
 2. Write tests for the `CountContainer.jsx` component:
     * Test that when you click the plus button, the count text increments
-    * Test that when you click the minus button, the count text decrements
-
